@@ -1,0 +1,35 @@
+/* Pinterest "Follow" Button Public CSS */
+
+/* DIV surrounding button */
+.pinterest-follow-btn-wrapper-shortcode,
+.pinterest-follow-btn-wrapper-widget {
+
+}
+
+.pinterest-follow-btn-wrapper-shortcode img {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+/* Latest "clear fix" method: http://css-tricks.com/snippets/css/clear-fix/ */
+.pfb-clearfix:before,
+.pfb-clearfix:after {
+    content:"";
+    display:table;
+}
+.pfb-clearfix:after {
+    clear:both;
+}
+.pfb-clearfix {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.pfb-float-left {
+    float: left;
+}
+
+.pfb-float-right {
+    float: right;
+}

@@ -1,0 +1,45 @@
+/* Pinterest "Follow" Button Admin CSS */
+
+.form-table {
+    margin-bottom: 10px !important; 
+}
+
+.form-table td {
+    padding: 1px 10px;
+}
+
+.form-table label {
+    padding-left: 3px;
+}
+.form-table input[type="checkbox"] {
+    margin-right: 5px;
+	width: auto;
+}
+
+.form-table textarea {
+    line-height: 1.3em;
+    width: 350px;
+}
+
+.postbox .pfb-hndle {
+	cursor: pointer;
+}
+
+.pfb-admin-banner {
+	margin-bottom: 15px;
+}
+
+table#share_plugin_buttons tr td {
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+#pfb-pointer-primary {
+	margin: 0 5px 0 0;
+}
+
+/* External link icon */
+a.external {
+    background: url(../img/icon-external-link.gif) center right no-repeat;
+    padding-right: 17px;
+}
